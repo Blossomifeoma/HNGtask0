@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 1000;
 app.get("/", (req, res) => {
     res.json({
         email: "blossie668@gmail.com",
-        current_time: new Date().toISOString(),
+        current_datetime: new Date().toISOString(),
         github_url: "https://github.com/blossomifeoma/HNGTask0"
     });
 });
