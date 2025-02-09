@@ -1,5 +1,25 @@
 {
+  "name": "hng12",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/blossomifeoma/HNGtask0#readme",
+  "bugs": {
+    "url": "https://github.com/blossomifeoma/HNGtask0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blossomifeoma/HNGtask0.git"
+  },
+  "license": "ISC",
+  "author": "Blossom Ifeoma",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.21.2"
-  }
+  },
+  "devDependencies": {}
 }
