@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 1000;
 
 // API route
-app.get("/info", (req, res) => {
+app.get("/", (req, res) => {
     res.json({
         email: "blossomadikankwu@gmail.com.com",
         current_time: new Date().toISOString(),
